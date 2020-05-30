@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="587.0" prefWidth="574.0" styleClass="root" stylesheets="@StyleSheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pro_kbs.SearchController">
+   <children>
+      <Pane prefHeight="620.0" prefWidth="604.0" stylesheets="@StyleSheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton fx:id="submit" layoutX="450.0" layoutY="520.0" onAction="#submit" style="-fx-background-color: green;" styleClass="forecolor" stylesheets="@StyleSheet.css" text="Submit" />
+            <JFXCheckBox fx:id="ch1" layoutX="42.0" layoutY="72.0" style="-jfx-checked-color: green;" styleClass="forecolor" stylesheets="@StyleSheet.css" text="one sided pain" />
+            <JFXCheckBox fx:id="ch2" layoutX="42.0" layoutY="114.0" style="-jfx-checked-color: green;" styleClass="forecolor" stylesheets="@StyleSheet.css" text="Blind_spots" />
+            <JFXCheckBox fx:id="ch3" layoutX="42.0" layoutY="149.0" style="-jfx-checked-color: green;" styleClass="forecolor" stylesheets="@StyleSheet.css" text="Sensation of tightness " />
+            <JFXButton fx:id="b" layoutX="33.0" layoutY="508.0" onAction="#back" opacity="0.98" prefHeight="40.0" prefWidth="79.0" style="-fx-background-color: green;" styleClass="forecolor" stylesheets="@../../../../../laptop1Data/Cinema/src/cinema/StyleSheet.css" text="back" />
+            <JFXCheckBox fx:id="ch4" layoutX="42.0" layoutY="32.0" styleClass="forecolor" text="Pain that throbs or pulses" />
+            <JFXCheckBox fx:id="ch5" layoutX="42.0" layoutY="192.0" prefHeight="24.0" prefWidth="194.0" styleClass="forecolor" text="Changes in vision" />
+            <JFXCheckBox fx:id="ch6" layoutX="42.0" layoutY="237.0" styleClass="forecolor" text="Pain usually on one side of your head" />
+            <JFXRadioButton fx:id="c1" layoutX="26.0" layoutY="336.0" styleClass="forecolor" text="30 to 90 minutes">
+               <toggleGroup>
+                  <ToggleGroup fx:id="c" />
+               </toggleGroup>
+            </JFXRadioButton>
+            <Label layoutX="33.0" layoutY="279.0" prefHeight="40.0" prefWidth="348.0" style="-fx-font-size: 28;" styleClass="forecolor" text="How long do they last?" />
+            <JFXRadioButton fx:id="c2" layoutX="275.0" layoutY="340.0" styleClass="forecolor" text="4 hours to 3 days" toggleGroup="$c" />
+            <JFXRadioButton fx:id="c3" layoutX="26.0" layoutY="378.0" styleClass="forecolor" text=" less than an hour " toggleGroup="$c" />
+            <JFXRadioButton fx:id="c4" layoutX="275.0" layoutY="378.0" styleClass="forecolor" text="30 min to week" toggleGroup="$c" />
+            <JFXRadioButton fx:id="c5" layoutX="28.0" layoutY="424.0" styleClass="forecolor" text=" 3 months without shifting sides or pain-free periods" toggleGroup="$c" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

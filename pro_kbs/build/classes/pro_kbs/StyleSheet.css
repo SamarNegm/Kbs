@@ -1,0 +1,55 @@
+/* 
+    Created on : Dec 7, 2018, 1:56:31 AM
+    Author     : Roa'a
+*/
+
+.root {
+    -fx-background-image: url(img.JPG);
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+} 
+
+#login ,#p{
+    -fx-background-color: linear-gradient(from 0 0 to 200px 200px , gray,white);
+    -fx-background-radius: 30px;
+    -fx-opacity:0.3; 
+}
+
+.forecolor{
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+
+
+.parent{
+    -fx-background-color:transparent;
+}
+.pane{
+    -fx-background-color:#333333;
+}
+.trans-btn-white-border{
+    -fx-background-color:transparent;
+    -fx-background-radius:5px;
+    -fx-border-color:#cccccc;
+    -fx-border-radius:5px;
+    -fx-border-width:1px;
+    -fx-text-fill:whitesmoke;
+}
+.white-pane{
+    -fx-background-color:#FFFFFF;
+}
+.tf_box{
+    -fx-background-color:transparent;
+    -fx-border-color:#DEDEE4;
+    -fx-border-width:0px 0px 1px 0px;    
+}
+.tf{
+    -fx-prompt-text-fill: white;
+    -fx-text-inner-color:white;   
+}
+.pink-btn{
+    -fx-background-color: #800000;
+    -fx-background-radius:5px;
+    -fx-text-fill:#FFFFFF;
+}
